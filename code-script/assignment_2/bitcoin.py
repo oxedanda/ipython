@@ -29,3 +29,4 @@ except (KeyError, TypeError, ValueError):
 # Calculate and print the USD value with 4 decimal places and thousand separators
 amount = bitcoins * price
 print(f"${amount:,.4f}")
+
